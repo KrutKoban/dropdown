@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.drop-down {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  margin: 10px auto 0;
+}
+
+.drop-down-list {
+  background: white;
+  color: black;
+  width: 100%;
+}
+
+.drop-down-list__item:hover {
+  background: blue;
+  color: white;
+}
+
+.choosen-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.choosen-list_item {
+
+}
